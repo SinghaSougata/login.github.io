@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #main{
+           background-color: orangered;
+           width: 400px;
+           margin: auto;
+           padding-left: 30px;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="main">
+        <h2>Login Form</h2>
+        <form>
+            <table>
+                <tr>
+            <td><label>NAME</label></td>
+           <td> <input type="text" required minlength="3" pattern="[a-Z]"></td><br>
+                </tr>
+                <tr>
+           <td><label>PASSWORD</label></td>
+            <td><input type="password" required minlength="8" pattern="a-Z ,0-9 ,*, %"></td><br>
+            </tr>
+            <tr>
+           <td> <input type="reset" name="reset">
+            <button>Login</button></td>
+            </tr>
+            </table>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
